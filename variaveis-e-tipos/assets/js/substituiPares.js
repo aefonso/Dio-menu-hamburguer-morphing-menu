@@ -5,7 +5,7 @@ function substituiPares(array){
     if (array[i] === 0){
       console.log("Você já é zero!")
     }else if (array[i] % 2 === 0){
-      console.log(`Substituindo ${array[i]} por 0...`);
+      console.log(`Substituindo: ${array[i]} por 0...`);
       array[i] = 0;
     }
   }
